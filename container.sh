@@ -8,6 +8,6 @@ NAME=dmsfile
 docker rm -f ${NAME} || true
 docker run -d -it --rm --name ${NAME} \
 	-p 3000:3000 \
-	-v /opt/dmsvol:/home/static \
+	-v /Users/gchinthaka/Desktop/xx:/home/static \
 	${TAG}
 

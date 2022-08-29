@@ -9,6 +9,6 @@ services:
             dockerfile: Dockerfile
         restart: always
         volumes:
-            - /opt/dmsvol:/app/static
+            - /Users/gchinthaka/Desktop/xx:/app/static
         ports:
             - "3000:8080"
